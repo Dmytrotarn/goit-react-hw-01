@@ -1,0 +1,57 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.avatar {
+  display: block;
+  margin: auto auto;
+  width: 120px;
+  height: 150px;
+}
+
+.name {
+  margin: auto auto;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.ulFriend {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  width: 900px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.liFriend {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 10px;
+
+  &:hover {
+    box-shadow: 2px 2px 4px 4px gray;
+  }
+}
+
+.status {
+  margin: auto auto;
+  font-size: 1.5em;
+}
+
+.status.online {
+  color: green;
+}
+
+.status.offline {
+  color: red;
+}
+.list {
+  display: flex;
+}
